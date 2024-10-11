@@ -1,4 +1,4 @@
-module github.com/caddyserver/cache-handler
+module github.com/AlexSaveliev1/cache-handler
 
 go 1.22.1
 
@@ -152,3 +152,5 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	howett.net/plist v1.0.0 // indirect
 )
+
+replace github.com/caddyserver/cache-handler => github.com/AlexSaveliev1/cache-handler
