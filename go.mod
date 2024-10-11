@@ -3,8 +3,8 @@ module github.com/AlexSaveliev1/cache-handler
 go 1.22.1
 
 require (
+	github.com/AlexSaveliev1/souin v0.0.0-20241011113941-0796391f8a58
 	github.com/caddyserver/caddy/v2 v2.8.4
-	github.com/AlexSaveliev1/souin v0.0.1
 	github.com/darkweak/storages/core v0.0.8
 )
 
@@ -152,5 +152,3 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	howett.net/plist v1.0.0 // indirect
 )
-
-replace github.com/caddyserver/cache-handler => github.com/AlexSaveliev1/cache-handler
